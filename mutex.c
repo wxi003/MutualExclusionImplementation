@@ -10,8 +10,8 @@
    This program illustrates the mutual exclusion algorithm for a process synchronization problem.
 */
 
-// gcc assignment5.c -o assignment5.out
-//./assignment5.out
+// gcc mutex.c -o mutex.out
+//./mutex.out
 
 typedef struct
 {
