@@ -32,10 +32,10 @@ The above line specifies the operations performed by client #1. client #1 deposi
   
 For every client, the program uses a separate thread. The transactions for a unique client should be
 handled by a distinct thread. For appropriate synchronization among the threads (i.e., critical
-sections are protected against random access by the threads) you must use mutual exclusion-related
+sections are protected against random access by the threads), the program uses mutual exclusion-related
 system functions (such as pthread_mutex_lock(), pthread_mutex_unlock() etc. which will be
-discussed in the lecture #14). As part of your output (i) you must show the number of Accounts and
-Clients (as per the input file data), and (ii) you must output the balances of each bank account after
+discussed in the lecture #14). As part of the output (i) the program shows the number of Accounts and
+Clients (as per the input file data), and (ii) the program outputs the balances of each bank account after
 all the transactions have been performed.   
 For example, the output looks like:  
 No. of Accounts: 2  
